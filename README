@@ -1,0 +1,4 @@
+-- Convertor UA symbols to hex symbols, list of all hex symbols in constants.h header.
+
+-- Compile command
+$ gcc main.c decodeHandler.c -o alphabetToHex
