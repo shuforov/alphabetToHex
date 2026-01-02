@@ -4,7 +4,7 @@
 #include "decodeHandler.h"
 
 int main(void) {
-    const char *text = "Меню Текст";  // Cyrillic text to convert
+    const char *text = "+10% до шкоди";  // Cyrillic text to convert
     const unsigned char *p = (const unsigned char *)text;
 
     uint16_t result[256];
@@ -18,8 +18,8 @@ int main(void) {
 
         // preserve spaces but skip unmapped
         if (code == 0x20) { // space
-            result[i++] = 0x00;
-            printf("0x00, ");
+            result[i++] = 0x16;
+            printf("0x16, ");
         } else if (tile) {
             result[i++] = tile;
             printf("0x%X, ", tile);

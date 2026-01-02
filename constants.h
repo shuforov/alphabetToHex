@@ -70,5 +70,30 @@
 #define A63 0x5A // ь
 #define A64 0x5B // ю
 #define A65 0x5C // я
+// Numbers and symbols
+#define A66 0x59 // !
+#define A67 0x5D // ?
+#define A68 0x5E // .
+#define A69 0x5F // 0
+#define A70 0x60 // 1
+#define A71 0x61 // 2
+#define A72 0x62 // 3
+#define A73 0x63 // 4
+#define A74 0x64 // 5
+#define A75 0x65 // 6
+#define A76 0x66 // 7
+#define A77 0x67 // 8
+#define A78 0x68 // 9
+#define A79 0x69 // "
+#define A80 0x6A // :
+#define A81 0x6B // ;
+#define A82 0x6C // =
+#define A83 0x6D // ,
+#define A84 0x6E // +
+#define A85 0x6F // -
+#define A86 0x70 // %
+#define A87 0x71 // * -> x
+#define A88 0x72 // <
+#define A89 0x73 // >
 
 #endif

@@ -137,11 +137,62 @@ uint16_t getTileForChar(unsigned int charSymb) {
     return A64; // ю
   case 0x044F:
     return A65; // я
-  // Apostrophe and space
+    // Apostrophe and space
+    // Numbers
+  case 0x0030:
+    return A69; // 0
+  case 0x0031:
+    return A70; // 1
+  case 0x0032:
+    return A71; // 2
+  case 0x0033:
+    return A72; // 3
+  case 0x0034:
+    return A73; // 4
+  case 0x0035:
+    return A74; // 5
+  case 0x0036:
+    return A75; // 6
+  case 0x0037:
+    return A76; // 7
+  case 0x0038:
+    return A77; // 8
+  case 0x0039:
+    return A78; // 9
+
+  // Symbols
+  case 0x0021:
+    return A66; // !
+  case 0x003F:
+    return A67; // ?
+  case 0x002E:
+    return A68; // .
+  case 0x0022:
+    return A79; // "
+  case 0x003A:
+    return A80; // :
+  case 0x003B:
+    return A81; // ;
+  case 0x003D:
+    return A82; // =
+  case 0x002C:
+    return A83; // ,
   case 0x0027:
     return A32; // '
+  case 0x002B:
+    return A84; // +
+  case 0x002D:
+    return A85; // -
+  case 0x0025:
+    return A86; // %
+  case 0x002A:
+    return A87; // * -> x
+  case 0x003C:
+    return A88; // <
+  case 0x003E:
+    return A89; // >
   case 0x0020:
-    return 0x00; // space (empty tile)
+    return 0x16; // space (empty tile)
   }
   return 0;
 }
