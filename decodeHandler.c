@@ -191,6 +191,8 @@ uint16_t getTileForChar(unsigned int charSymb) {
     return A88; // <
   case 0x003E:
     return A89; // >
+  case 0x002F:
+    return A90; // /
   case 0x0020:
     return 0x16; // space (empty tile)
   }

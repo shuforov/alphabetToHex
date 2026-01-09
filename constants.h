@@ -95,5 +95,6 @@
 #define A87 0x71 // * -> x
 #define A88 0x72 // <
 #define A89 0x73 // >
+#define A90 0x74 // /
 
 #endif

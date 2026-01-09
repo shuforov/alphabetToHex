@@ -4,7 +4,7 @@
 #include "decodeHandler.h"
 
 int main(void) {
-    const char *text = "+10% до шкоди";  // Cyrillic text to convert
+    const char *text = "С";  // Cyrillic text to convert
     const unsigned char *p = (const unsigned char *)text;
 
     uint16_t result[256];
